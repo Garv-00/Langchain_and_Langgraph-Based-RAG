@@ -127,7 +127,7 @@ RAG/
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/anshulnangru/RAG.git
+git clone https://github.com/anshulnangru/Langchain_and_Langgraph-Based-RAG
 cd RAG
 uv sync
 ```
