@@ -257,6 +257,7 @@ Returns a Mermaid PNG diagram of the LangGraph agent workflow.
 
 ##  Author
 
+**Garv** · [GitHub](https://github.com/Garv-00) · [LinkedIn](https://www.linkedin.com/in/garv-sharma-157796395)
 **Anshul Nangru** · [GitHub](https://github.com/anshulnangru) · [LinkedIn](https://www.linkedin.com/in/anshul-nangru/)
 
 ---
