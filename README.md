@@ -128,17 +128,25 @@ RAG/
 
 ```bash
 git clone https://github.com/Garv-00/Langchain_and_Langgraph-Based-RAG
-cd RAG
 uv sync
 ```
 
-### 2. Environment variables
+### 2. Environment Variables
+
+`APP_API_KEY` is a custom secret used to authenticate requests to the application's API endpoints. It is not issued by an external service, so you generate it yourself:
+
+```bash
+python -c "import secrets; print(secrets.token_urlsafe(32))"
+```
 
 Create a `.env` file in the project root:
 
 ```env
+# Application Security
+APP_API_KEY=your_generated_secret_key
+
 # Groq (LLM inference)
-GROQ_API_KEY=your_groq_api_key
+GROQ_API_KEY_1=your_groq_api_key
 GROQ_MODEL=openai/gpt-oss-120b
 GROQ_MODEL_PLANNER=qwen/qwen3.6-27b
 GROQ_FALLBACK_API_KEY=your_fallback_groq_key
@@ -153,7 +161,6 @@ JINA_API_KEY=your_jina_api_key
 # Logfire (observability)
 LOGFIRE_TOKEN=your_logfire_token
 ```
-
 ### 3. Ingest documents
 
 ```bash
