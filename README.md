@@ -130,7 +130,7 @@ The backend runs in **Docker**. The frontend runs with Node.
 - Python 3.12+
 - Node.js 18+
 - [uv](https://github.com/astral-sh/uv) package manager
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (running)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ### 1. Clone
 
